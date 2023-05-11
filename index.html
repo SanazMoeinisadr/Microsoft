@@ -6,7 +6,7 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
        <link rel="stylesheet" href="./css/main.css">
-       <title>Microsaft</title>
+       <title>Microsoft</title>
 </head>
 <body>
   <!-- make nav -->
@@ -45,9 +45,59 @@
        </li>
        </ul>
        <form class="d-flex my-2 my-lg-0">
-
        </div>
-         </div>
+       <div class="right ms-auto d-flex flex-row align-items-center">
+        <div class="search mx-2 d-flex" data-bs-toggle="tooltip" data-bs-placement="bottom">
+          <a class="nav-link d-flex flex-row gap-1" href="#">
+            <span class="d-none d-xl-inline-block">Search</span>
+            <img src="./imges/srch.svg" alt="search">
+            <input type="text" name="search" id="search" placeholder="" />
+          </a>
+      </div>
+
+        <div class="cart mx-2" data-bs-toggle="tooltip" data-bs-placement="bottom">
+          <a class="nav-link d-flex flex-row gap-1" href="#">
+            <span class="d-none d-xl-inline-block">Cart</span>
+            <img src="./imges/shop.svg" alt="cart">
+          </a>
+      </div>
+        <div button type="button" class="signin mx-2" data-bs-toggle="modal" data-bs-target="#signin1">
+          <a class="matnsing d-flex flex-row gap-3 text-decoration-none">
+            <span class="d-none d-xl-inline-block">Sign in</span>
+            <img src="./imges/user.png" alt="">
+          </a>
+        </div>
+        <div class="modal" id="signin1">
+          <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <img src="./imges/logo.png" alt="">
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body m-auto ">
+                <h4 class="modal-title fw-bold mb-3">Sign in </h4>
+                <label for="" class="form-label">Enter your Email</label>
+                  <input type="email" class="form-control" name="pass" id="mail" placeholder="Email" required>
+                  <label for="" class="form-label mt-3">Password</label>
+                  <input type="password" class="form-control" name="pass" id="psa" placeholder="Password" required>
+                  <div class="nvshte">
+                  No account?<span> Create one!</span> 
+                  </div>
+                </div>
+                </label>
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Sign In</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+         </div>        
        </nav>
        <!-- end nav -->
        <!-- make slider -->

@@ -11,3 +11,6 @@
        background-color: rgb(209, 209, 209);
        border-radius: 10px;
    }
+   div.modal-backdrop{
+    z-index: 0 !important;
+   }
