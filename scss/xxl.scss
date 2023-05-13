@@ -32,6 +32,36 @@ nav{
     }
        >div.container-fluid{
        >div.right{
+        >div.dropdown{
+            >div.safhe1{
+                max-width: 1230px ;
+                    width: 1230px;
+                    box-sizing: border-box !important;
+                    background-color: rgb(240, 240, 240) !important;
+                    font-size: 14px !important;
+                    top: 36px!important;
+                    left: unset !important;
+                    right: -340px !important;
+                    
+                >div.safhe>div{
+                    width: 195px;
+                    a{
+                        &:hover{
+                            text-decoration: underline !important;
+                        }
+                    }
+                }
+                >div.akhar{
+                    height: 35px;
+                    background-color: rgb(219, 219, 219);
+                    width: 100% !important;
+                    a{
+                        color: #000000 !important;
+                        font-size: 13px !important;
+                    }
+                }
+            }
+        }
         >div.search{
             >a{
                 &:hover{
@@ -121,6 +151,7 @@ nav{
             }
         }
     }
+
 }
 }
 }
