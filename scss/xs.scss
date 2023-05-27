@@ -19,7 +19,23 @@ nav{
         }
     
     }
-    >div.container-fluid{>div.cart1{
+    >div.container-fluid{
+        >div.navbar-collapse{
+            >ul.navbar-nav{
+                background-color: rgb(238, 238, 238);
+                    li.nav-item{
+                        margin-left: 20px;
+                        height: 50px;
+                        border-bottom: 1px solid rgb(219, 219, 219);
+                        margin-top: 10px;
+                        
+                    }
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+        >div.cart1{
         >a{
             &:hover{
                 text-decoration: underline;
